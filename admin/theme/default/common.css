@@ -1,0 +1,290 @@
+@media print{
+	.noprint {
+		display:none;
+	}
+}
+html {
+    height: 100%;
+}
+
+img {
+    border: none;
+}
+
+body, div, span , h1, h2, h3, h4, h5, h6, form, textarea, p, table, th, td {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+input,textarea{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+table {
+	border-collapse:collapse;
+}
+
+
+a, a:visited {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    overflow:auto;
+	overflow-y:scroll;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+} #csportal_main_menu {
+    background-color: #fff;
+    margin: 0;
+    padding: 5px 0 0;
+} #csportal_body, #csportal_main_content {
+	width:99%;
+    background-color: #fff;
+    margin: 5px;
+}
+
+/* Basic Tab */ 
+ .csportal_basictab {
+    padding: 3px 5px;
+    margin-left: 0;
+    margin-top: 6px;
+    font: bold 12px Verdana;
+    border-bottom: 1px solid #C5D7EF;
+    list-style-type: none;
+    text-align: left;
+} .csportal_basictab li {
+    display: inline;
+    margin: 0;
+} .csportal_basictab li a {
+    padding: 3px 7px;
+    margin-right: 3px;
+    border: 1px solid #C5D7EF;
+    border-bottom: none;
+    background-color: #E5ECF9;
+    color: #224499;
+    text-decoration: none;
+} .csportal_basictab li a:visited {
+    color: #224499;
+} .csportal_basictab li a:hover {
+    background-color: #D4E6FC;
+} .csportal_basictab li a:active {
+} .csportal_basictab li.selected a {
+    position: relative;
+    top: 1px;
+    padding-top: 4px;
+    background-color: #fff;
+    color: #3366CC;
+} .csportal_form label {
+    display: inline-block;
+    font-weight: bold;
+    padding: 2px;
+    cursor: pointer;
+} .csportal_form label span {
+    color: red;
+} .csportal_form label.option {
+    font-weight: normal;
+} .csportal_form label.error {
+    min-width: 200px;
+    font-weight: normal;
+    font-style: italic;
+    color: red;
+}
+/* Text Button */
+.csportal_txtbutton{
+    background-color: #E5ECF9;
+    color: #224499;
+	display:inline-block;
+	clear:both;
+	position:relative;
+	font-family:Tahoma;
+	min-width:40px;
+	text-align:center;
+
+	border:1px solid #C5D7EF;
+	font-size:12px;
+	line-height:18px;
+	padding:0px 3px 1px;
+}
+.csportal_txtbutton:hover{
+    background-color: #D4E6FC;
+}
+/* Dot Style Break Line */
+.csportal_dotbreakline {
+	height:16px;
+	display:inline-block;
+	width:100%;
+	background:url(image/dot_line.gif) center repeat-x;
+	clear:both;
+	border:0;
+}
+/* Loading Message */
+.csportal_loading_16 {
+	display:inline-block;
+	padding-left:20px;
+	height:20px;
+	line-height:20px;
+	background:url(image/loading_16.gif) no-repeat 2px 2px; 
+	clear:both;
+}.csportal_loading_32 {
+	display:inline-block;
+	padding-left:36px;
+	height:36px;
+	line-height:36px;
+	background:url(image/loading_32.gif) no-repeat 2px 2px; 
+	clear:both;
+}
+
+/* jQuery UI - Sortable */ 
+.ui-sortable {
+    border: 1px solid gray;
+    float: left;
+    margin-right: 1%;
+} .ui-sortable-placeholder {
+    border: 3px dashed gray;
+} .ui-sortable-placeholder .ui-sortable-itemHeader, .ui-sortable-placeholder .ui-sortable-itemBody {
+    visibility: hidden;
+} .ui-sortable-item {
+    margin-bottom: 20px;
+} .ui-sortable-itemHeader {
+    line-height: 28px;
+    background-color: #DAFF9F;
+    border-top: 2px solid #B5EF59;
+    color: #000;
+    padding: 0 10px;
+    cursor: move;
+    font-weight: bold;
+    font-size: 16px;
+    height: 28px;
+} .ui-sortable-itemHeader span {
+    float: left;
+    right: 10px;
+    top: 0px;
+    font-weight: normal;
+    font-size: 11px;
+    text-decoration: none;
+    clear: both;
+} .ui-sortable-itemHeader a {
+    float: right;
+    right: 10px;
+    top: 0px;
+    font-weight: normal;
+    font-size: 11px;
+    text-decoration: none;
+} .ui-sortable .sortHelper {
+    border: 3px dashed #666;
+    width: auto !important;
+}
+
+.ui-icon {
+    background-image: url(image/jquery.ui/icons.gif);
+    height: 16px;
+    width: 16px;
+}
+.ui-icon-gripsmall-diagonal-se{
+	background-position:-80px -224px;
+}
+.ui-resizable-s{
+	cursor:s-resize;
+	height:4px;
+	bottom:0;
+	left:0;
+	width:100%;
+	position:absolute;
+	font-size:0.1px;
+	z-index:999;
+/*
+	background-color:red;
+*/
+}
+.ui-resizable-se{
+	cursor:s-resize;
+	right:0;
+	bottom:0;
+	float:right;
+	position:absolute;
+}
+
+/* jQuery plugin - Table Sorter v2.0 */ 
+.tablesorter {
+    text-align: left;
+    font-size: 12px;
+    border: 0;
+    margin: 0;
+    border-collapse: collapse;
+} .tablesorter th, .tablesorter td {
+	empty-cells:show;
+} .tablesorter th {
+    padding: 5px;
+} .tablesorter .subtotal {
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+} .tablesorter .center {
+    text-align: center;
+} .tablesorter tfoot td {
+    background-color: #CDCDCD;
+} .tablesorter tbody th {
+    padding: 1px 2px 1px 2px !important;
+    padding: 2px 2px 1px 2px;
+} .tablesorter thead tr {
+	background-color:#E6EEEE;
+} .tablesorter tobdy tr {
+} .tablesorter thead tr .header {
+    background: #e6EEEE url(image/jquery.tablesorter/bg.gif) center right no-repeat;
+    cursor: pointer;
+    padding-right:15px;
+} .tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+    background-color: #8dbdd8;
+} .tablesorter thead tr .headerSortUp {
+    background-image: url(image/jquery.tablesorter/asc.gif);
+} .tablesorter thead tr .headerSortDown {
+    background-image: url(image/jquery.tablesorter/desc.gif);
+} .tablesorter thead th {
+	color:#224499;
+    border-bottom: 2px solid #e6EEEE;	
+} .tablesorter tbody td {
+    color: #3D3D3D;
+    padding: 1px 5px 1px 5px !important;
+    padding: 2px 4px 1px 4px;
+    border-bottom: 1px solid #e6EEEE;
+    vertical-align: middle;
+} .tablesorter tbody tr {
+    background-color: #fff;
+} .tablesorter tbody tr.odd {
+    background-color: #f6f6f6;
+} .tablesorter tbody tr.selected {
+    background-color: #FFE25F;
+} .tablesorter tbody tr.over {
+    background-color: #bcd4ec;
+} .tablesorter tbody tr.hand {
+    cursor: pointer;
+} .tablesorter tbody tr.error {
+    background-color: #fcc;
+} .tablesorter .csportal_txtbutton{
+	border:1px solid #C5D7EF;
+	height:16px;
+	line-height:16px;
+	font-size:12px;
+	padding:0 2px 0 2px;
+	vertical-align:top !important;
+	vertical-align:inherit;
+	margin:1px 0 1px 0;
+}
+
+
+.eventbox_type_A{
+	background-color:#FFCCFF;
+	border:1px solid #999999;
+}
+.eventbox_type_B{
+	background-color:#9cc;
+	border:1px solid #999999;
+}
+.eventbox_type_Z{
+	background-color:#ccc;
+	border:1px solid #999999;
+}
+

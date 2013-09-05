@@ -1,0 +1,36 @@
+ * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+} #divMsg {
+    background-color: #FEFF9F;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 14px;
+} #login_form {
+    display: block;
+    width: 250px;
+    height: 150px;
+    padding: 12px;
+    float: left;
+} #login_form label {
+    padding-top: 6px;
+    display: block;
+    margin-left: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+} #login, #pw {
+    width: 95%;
+    font-size: 16px;
+    font-weight: bold;
+} #submit_button {
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
